@@ -5,7 +5,7 @@ var http = require('http');
 //setup our port
 var port = process.env.PORT || 1337;
 
-var url = 'mongodb://jamiepeterlaw@gmail.com:murphy1231@ds050869.mlab.com:50869/mongojambo';
+var url = 'mongodb://test:cats@ds050869.mlab.com:50869/mongojambo';
 
 var MongoClient = mongodb.MongoClient;
 
